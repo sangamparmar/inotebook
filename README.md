@@ -17,7 +17,7 @@ This project helped me learn the fundamentals of:
 To clone the repository, open git bash in your desired directory and execute the below given command:
 
 ```
-git clone https://github.com/aayush7908/Note-Application.git
+git clone https://github.com/sangamparmar/inotebook.git
 ```
 
 After this, a new directory named `Note-Application` will be created within the current working directory.
@@ -35,23 +35,29 @@ PORT=5000
 
 *__NOTE:__ Values indicated by ALL CAPS have to be replaced by your own credentials.*
 
-After `.env` file is ready, use the following docker command to run the application:
+After `.env` file is ready:
+Start Backend Server:
+Navigate to the backend directory and run:
 
 ```
-docker-compose up --build -d
+npm install      # Install dependencies
+node index.js       # Start the backend server
+
+```
+Start Frontend Server:
+Navigate to the frontend directory and run:
+
+```
+npm install      # Install dependencies
+npm start        # Start the backend server
+
 ```
 
-*___INFO:___ Docker will create three containers, one for each of Frontend, Backend and MongoDB Database. These containers will run in background. If you don't want them to run in background, then remove `-d` flag from docker command*
 
 After this, your application is ready. You can use the application by pasting following code in your browser:
 
 ```
 http://localhost:3000
-```
-
-To stop these containers, you can use the command:
-```
-docker-compose down
 ```
 
 
