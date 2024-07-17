@@ -12,6 +12,17 @@ This project helped me learn the fundamentals of:
 - Cryptography(Single-Key and Two-Key)
 - Docker and Containerization
 
+## Sample Email&Pass for testing website
+Email:
+```
+abc@gmail.com
+```
+
+Password:
+
+```
+12345678
+```
 
 ## Installation
 To clone the repository, open git bash in your desired directory and execute the below given command:
