@@ -44,7 +44,7 @@ GMAIL_RECEIVER=EMAIL_ADDRESS_OF_RECEIVER
 PORT=5000
 ```
 
-*__NOTE:__ Values indicated by ALL CAPS have to be replaced by your own credentials.*
+*__NOTE:__ Values indicated by ALL CAPS have to be replaced by your own credential.*
 
 After `.env` file is ready:
 Start Backend Server:
