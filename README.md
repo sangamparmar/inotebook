@@ -25,7 +25,7 @@ Password:
 ```
 
 ## Installation
-To clone the repository, open git bash in your desired directory and execute the below given command:
+To clone the repository, open git bash in your desired directory and execute the below given command:-
 
 ```
 git clone https://github.com/sangamparmar/inotebook.git
